@@ -43,11 +43,9 @@ bot.dialog('/', [
     }
 ]);
 
-if (useEmulator) {
-    var restify = require('restify');
-    var server = restify.createServer();
-    server.listen(3978, function() {
-        debug('test bot endpoint at http://localhost:3978/api/messages');
-    });
-    server.post('/api/messages', connector.listen());    
-}
+var restify = require('restify');
+var server = restify.createServer();
+server.listen(3978, function() {
+    debug('test bot endpoint at http://localhost:3978/api/messages');
+});
+server.post('/api/messages', connector.listen());
