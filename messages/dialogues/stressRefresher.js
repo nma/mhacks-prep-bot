@@ -17,7 +17,7 @@ function stressRefresherWorksheet(bot, builder) {
                 next();
             }
         },
-        function (session) gi{
+        function (session) {
             builder.Prompts.choice(session, "okay " + session.userData.shoulders + ", How about your neck?", ["Tensed", "Relaxed"]);
         },
         function (session, results, next) {
