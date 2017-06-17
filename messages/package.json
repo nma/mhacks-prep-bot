@@ -8,10 +8,29 @@
     "botbuilder-azure": "3.0.2"
   },
   "devDependencies": {
-      "restify": "^4.3.0"
-  },  
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-flow": "^6.23.0",
+    "cross-env": "^5.0.1",
+    "debug": "^2.6.8",
+    "eslint": "3.0.0",
+    "eslint-plugin-compat": "^1.0.3",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "eslint-plugin-import": "^2.3.0",
+    "flow-bin": "^0.48.0",
+    "jest": "^20.0.4",
+    "nodemon": "^1.11.0",
+    "restify": "^4.3.0",
+    "webpack": "^2.6.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint . && flow && jest --coverage",
+    "dev": "nodemon --config nodemon.json -x yarn start",
+    "build": "webpack --progress -p",
+    "start": "cross-env NODE_ENV=development DEBUG=bot babel-node index.js"
   },
   "author": "",
   "license": "ISC"

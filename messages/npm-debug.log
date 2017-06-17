@@ -1,0 +1,829 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yarn' ]
+2 info using npm@1.4.9
+3 info using node@v8.1.0
+4 verbose cache add [ 'yarn', null ]
+5 verbose cache add name=undefined spec="yarn" args=["yarn",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yarn',
+6 verbose parsed url   path: 'yarn',
+6 verbose parsed url   href: 'yarn' }
+7 silly lockFile d19a2519-yarn yarn
+8 verbose lock yarn C:\Users\Nick\AppData\Roaming\npm-cache\d19a2519-yarn.lock
+9 silly lockFile d19a2519-yarn yarn
+10 silly lockFile d19a2519-yarn yarn
+11 verbose addNamed [ 'yarn', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d5475ddd-yarn yarn@
+14 verbose lock yarn@ C:\Users\Nick\AppData\Roaming\npm-cache\d5475ddd-yarn.lock
+15 silly addNameRange { name: 'yarn', range: '*', hasData: false }
+16 verbose url raw yarn
+17 verbose url resolving [ 'https://registry.npmjs.org/', './yarn' ]
+18 verbose url resolved https://registry.npmjs.org/yarn
+19 info trying registry request attempt 1 at 00:32:08
+20 http GET https://registry.npmjs.org/yarn
+21 http 200 https://registry.npmjs.org/yarn
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Wed, 07 Jun 2017 14:12:38 GMT',
+22 silly registry.get     etag: 'W/"593809d6-2a0cb"',
+22 silly registry.get     'content-encoding': 'gzip',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '10092',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Fri, 16 Jun 2017 04:32:14 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '83',
+22 silly registry.get     connection: 'close',
+22 silly registry.get     'x-served-by': 'cache-jfk8137-JFK',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1497587535.561232,VS0,VE0',
+22 silly registry.get     vary: 'Accept-Encoding' } ]
+23 silly addNameRange number 2 { name: 'yarn', range: '*', hasData: true }
+24 silly addNameRange versions [ 'yarn',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.15.1',
+24 silly addNameRange     '0.16.0',
+24 silly addNameRange     '0.16.1',
+24 silly addNameRange     '0.17.0',
+24 silly addNameRange     '0.17.2',
+24 silly addNameRange     '0.17.3',
+24 silly addNameRange     '0.17.4',
+24 silly addNameRange     '0.17.5',
+24 silly addNameRange     '0.17.6',
+24 silly addNameRange     '0.17.7',
+24 silly addNameRange     '0.17.8',
+24 silly addNameRange     '0.17.9',
+24 silly addNameRange     '0.17.10',
+24 silly addNameRange     '0.18.0',
+24 silly addNameRange     '0.18.1',
+24 silly addNameRange     '0.19.0',
+24 silly addNameRange     '0.19.1',
+24 silly addNameRange     '0.20.0',
+24 silly addNameRange     '0.21.0',
+24 silly addNameRange     '0.20.3',
+24 silly addNameRange     '0.21.1',
+24 silly addNameRange     '0.21.2',
+24 silly addNameRange     '0.18.2',
+24 silly addNameRange     '0.20.4',
+24 silly addNameRange     '0.21.3',
+24 silly addNameRange     '0.22.0',
+24 silly addNameRange     '0.23.0',
+24 silly addNameRange     '0.23.1',
+24 silly addNameRange     '0.23.2',
+24 silly addNameRange     '0.23.3',
+24 silly addNameRange     '0.23.4',
+24 silly addNameRange     '0.24.0',
+24 silly addNameRange     '0.24.1',
+24 silly addNameRange     '0.24.2',
+24 silly addNameRange     '0.24.3',
+24 silly addNameRange     '0.24.4',
+24 silly addNameRange     '0.25.1',
+24 silly addNameRange     '0.24.5',
+24 silly addNameRange     '0.25.2',
+24 silly addNameRange     '0.24.6',
+24 silly addNameRange     '0.25.3',
+24 silly addNameRange     '0.25.4',
+24 silly addNameRange     '0.26.0',
+24 silly addNameRange     '0.26.1' ] ]
+25 verbose addNamed [ 'yarn', '0.24.5' ]
+26 verbose addNamed [ '0.24.5', '0.24.5' ]
+27 silly lockFile 46f2d28b-yarn-0-24-5 yarn@0.24.5
+28 verbose lock yarn@0.24.5 C:\Users\Nick\AppData\Roaming\npm-cache\46f2d28b-yarn-0-24-5.lock
+29 silly lockFile e1676912-y-npmjs-org-yarn-yarn-0-24-5-tgz https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz
+30 verbose lock https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz C:\Users\Nick\AppData\Roaming\npm-cache\e1676912-y-npmjs-org-yarn-yarn-0-24-5-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz',
+31 verbose addRemoteTarball   '92c72adf4de8dacccaf6b4259eb4990f6c4f8e3b' ]
+32 info retry fetch attempt 1 at 00:32:09
+33 verbose fetch to= C:\Users\Nick\AppData\Local\Temp\npm-12788-5z5_vl02\1497587529036-0.27894794770957776\tmp.tgz
+34 http GET https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz
+35 http 200 https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz
+36 verbose tar unpack C:\Users\Nick\AppData\Local\Temp\npm-12788-5z5_vl02\1497587529036-0.27894794770957776\tmp.tgz
+37 silly lockFile a6854bcc-ng-npm-cache-yarn-0-24-5-package tar://C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package
+38 verbose lock tar://C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package C:\Users\Nick\AppData\Roaming\npm-cache\a6854bcc-ng-npm-cache-yarn-0-24-5-package.lock
+39 silly lockFile 99daa748-9036-0-27894794770957776-tmp-tgz tar://C:\Users\Nick\AppData\Local\Temp\npm-12788-5z5_vl02\1497587529036-0.27894794770957776\tmp.tgz
+40 verbose lock tar://C:\Users\Nick\AppData\Local\Temp\npm-12788-5z5_vl02\1497587529036-0.27894794770957776\tmp.tgz C:\Users\Nick\AppData\Roaming\npm-cache\99daa748-9036-0-27894794770957776-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+48 silly gunzTarPerm extractEntry Dockerfile.dev
+49 silly gunzTarPerm modified mode [ 'Dockerfile.dev', 436, 420 ]
+50 silly gunzTarPerm extractEntry Dockerfile.node7
+51 silly gunzTarPerm modified mode [ 'Dockerfile.node7', 436, 420 ]
+52 silly gunzTarPerm extractEntry .dockerignore
+53 silly gunzTarPerm modified mode [ '.dockerignore', 436, 420 ]
+54 silly gunzTarPerm extractEntry bin/yarn-bundle-entry.js
+55 silly gunzTarPerm modified mode [ 'bin/yarn-bundle-entry.js', 509, 493 ]
+56 silly gunzTarPerm extractEntry bin/yarn.js
+57 silly gunzTarPerm modified mode [ 'bin/yarn.js', 509, 493 ]
+58 silly gunzTarPerm extractEntry bin/yarn
+59 silly gunzTarPerm modified mode [ 'bin/yarn', 509, 493 ]
+60 silly gunzTarPerm extractEntry bin/yarn.cmd
+61 silly gunzTarPerm modified mode [ 'bin/yarn.cmd', 436, 420 ]
+62 silly gunzTarPerm extractEntry bin/yarnpkg
+63 silly gunzTarPerm modified mode [ 'bin/yarnpkg', 509, 493 ]
+64 silly gunzTarPerm extractEntry bin/yarnpkg.cmd
+65 silly gunzTarPerm modified mode [ 'bin/yarnpkg.cmd', 436, 420 ]
+66 silly gunzTarPerm extractEntry jenkins_jobs.groovy
+67 silly gunzTarPerm modified mode [ 'jenkins_jobs.groovy', 436, 420 ]
+68 silly gunzTarPerm extractEntry lib/api.js
+69 silly gunzTarPerm modified mode [ 'lib/api.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry lib/types.js
+71 silly gunzTarPerm modified mode [ 'lib/types.js', 436, 420 ]
+72 silly gunzTarPerm extractEntry lib/integrity-checker.js
+73 silly gunzTarPerm modified mode [ 'lib/integrity-checker.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry lib/rc.js
+75 silly gunzTarPerm modified mode [ 'lib/rc.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry lib/errors.js
+77 silly gunzTarPerm modified mode [ 'lib/errors.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry lib/package-constraint-resolver.js
+79 silly gunzTarPerm modified mode [ 'lib/package-constraint-resolver.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry lib/package-fetcher.js
+81 silly gunzTarPerm modified mode [ 'lib/package-fetcher.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry lib/package-resolver.js
+83 silly gunzTarPerm modified mode [ 'lib/package-resolver.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry lib/package-install-scripts.js
+85 silly gunzTarPerm modified mode [ 'lib/package-install-scripts.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry lib/package-linker.js
+87 silly gunzTarPerm modified mode [ 'lib/package-linker.js', 436, 420 ]
+88 silly gunzTarPerm extractEntry lib/constants.js
+89 silly gunzTarPerm modified mode [ 'lib/constants.js', 436, 420 ]
+90 silly gunzTarPerm extractEntry lib/package-reference.js
+91 silly gunzTarPerm modified mode [ 'lib/package-reference.js', 436, 420 ]
+92 silly gunzTarPerm extractEntry lib/config.js
+93 silly gunzTarPerm modified mode [ 'lib/config.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry lib/package-request.js
+95 silly gunzTarPerm modified mode [ 'lib/package-request.js', 436, 420 ]
+96 silly gunzTarPerm extractEntry lib/package-compatibility.js
+97 silly gunzTarPerm modified mode [ 'lib/package-compatibility.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry lib/package-hoister.js
+99 silly gunzTarPerm modified mode [ 'lib/package-hoister.js', 436, 420 ]
+100 silly gunzTarPerm extractEntry lib/cli/aliases.js
+101 silly gunzTarPerm modified mode [ 'lib/cli/aliases.js', 436, 420 ]
+102 silly gunzTarPerm extractEntry lib/cli/index.js
+103 silly gunzTarPerm modified mode [ 'lib/cli/index.js', 436, 420 ]
+104 silly gunzTarPerm extractEntry lib/cli/unsupported-aliases.js
+105 silly gunzTarPerm modified mode [ 'lib/cli/unsupported-aliases.js', 436, 420 ]
+106 silly gunzTarPerm extractEntry lib/cli/commands/_build-sub-commands.js
+107 silly gunzTarPerm modified mode [ 'lib/cli/commands/_build-sub-commands.js', 436, 420 ]
+108 silly gunzTarPerm extractEntry lib/cli/commands/info.js
+109 silly gunzTarPerm modified mode [ 'lib/cli/commands/info.js', 436, 420 ]
+110 silly gunzTarPerm extractEntry lib/cli/commands/init.js
+111 silly gunzTarPerm modified mode [ 'lib/cli/commands/init.js', 436, 420 ]
+112 silly gunzTarPerm extractEntry lib/cli/commands/install.js
+113 silly gunzTarPerm modified mode [ 'lib/cli/commands/install.js', 436, 420 ]
+114 silly gunzTarPerm extractEntry lib/cli/commands/index.js
+115 silly gunzTarPerm modified mode [ 'lib/cli/commands/index.js', 436, 420 ]
+116 silly gunzTarPerm extractEntry lib/cli/commands/link.js
+117 silly gunzTarPerm modified mode [ 'lib/cli/commands/link.js', 436, 420 ]
+118 silly gunzTarPerm extractEntry lib/cli/commands/list.js
+119 silly gunzTarPerm modified mode [ 'lib/cli/commands/list.js', 436, 420 ]
+120 silly gunzTarPerm extractEntry lib/cli/commands/login.js
+121 silly gunzTarPerm modified mode [ 'lib/cli/commands/login.js', 436, 420 ]
+122 silly gunzTarPerm extractEntry lib/cli/commands/logout.js
+123 silly gunzTarPerm modified mode [ 'lib/cli/commands/logout.js', 436, 420 ]
+124 silly gunzTarPerm extractEntry lib/cli/commands/outdated.js
+125 silly gunzTarPerm modified mode [ 'lib/cli/commands/outdated.js', 436, 420 ]
+126 silly gunzTarPerm extractEntry lib/cli/commands/import.js
+127 silly gunzTarPerm modified mode [ 'lib/cli/commands/import.js', 436, 420 ]
+128 silly gunzTarPerm extractEntry lib/cli/commands/owner.js
+129 silly gunzTarPerm modified mode [ 'lib/cli/commands/owner.js', 436, 420 ]
+130 silly gunzTarPerm extractEntry lib/cli/commands/help.js
+131 silly gunzTarPerm modified mode [ 'lib/cli/commands/help.js', 436, 420 ]
+132 silly gunzTarPerm extractEntry lib/cli/commands/pack.js
+133 silly gunzTarPerm modified mode [ 'lib/cli/commands/pack.js', 436, 420 ]
+134 silly gunzTarPerm extractEntry lib/cli/commands/global.js
+135 silly gunzTarPerm modified mode [ 'lib/cli/commands/global.js', 436, 420 ]
+136 silly gunzTarPerm extractEntry lib/cli/commands/publish.js
+137 silly gunzTarPerm modified mode [ 'lib/cli/commands/publish.js', 436, 420 ]
+138 silly gunzTarPerm extractEntry lib/cli/commands/generate-lock-entry.js
+139 silly gunzTarPerm modified mode [ 'lib/cli/commands/generate-lock-entry.js', 436, 420 ]
+140 silly gunzTarPerm extractEntry lib/cli/commands/remove.js
+141 silly gunzTarPerm modified mode [ 'lib/cli/commands/remove.js', 436, 420 ]
+142 silly gunzTarPerm extractEntry lib/cli/commands/create.js
+143 silly gunzTarPerm modified mode [ 'lib/cli/commands/create.js', 436, 420 ]
+144 silly gunzTarPerm extractEntry lib/cli/commands/run.js
+145 silly gunzTarPerm modified mode [ 'lib/cli/commands/run.js', 436, 420 ]
+146 silly gunzTarPerm extractEntry lib/cli/commands/config.js
+147 silly gunzTarPerm modified mode [ 'lib/cli/commands/config.js', 436, 420 ]
+148 silly gunzTarPerm extractEntry lib/cli/commands/tag.js
+149 silly gunzTarPerm modified mode [ 'lib/cli/commands/tag.js', 436, 420 ]
+150 silly gunzTarPerm extractEntry lib/cli/commands/clean.js
+151 silly gunzTarPerm modified mode [ 'lib/cli/commands/clean.js', 436, 420 ]
+152 silly gunzTarPerm extractEntry lib/cli/commands/team.js
+153 silly gunzTarPerm modified mode [ 'lib/cli/commands/team.js', 436, 420 ]
+154 silly gunzTarPerm extractEntry lib/cli/commands/check.js
+155 silly gunzTarPerm modified mode [ 'lib/cli/commands/check.js', 436, 420 ]
+156 silly gunzTarPerm extractEntry lib/cli/commands/unlink.js
+157 silly gunzTarPerm modified mode [ 'lib/cli/commands/unlink.js', 436, 420 ]
+158 silly gunzTarPerm extractEntry lib/cli/commands/cache.js
+159 silly gunzTarPerm modified mode [ 'lib/cli/commands/cache.js', 436, 420 ]
+160 silly gunzTarPerm extractEntry lib/cli/commands/upgrade-interactive.js
+161 silly gunzTarPerm modified mode [ 'lib/cli/commands/upgrade-interactive.js', 436, 420 ]
+162 silly gunzTarPerm extractEntry lib/cli/commands/bin.js
+163 silly gunzTarPerm modified mode [ 'lib/cli/commands/bin.js', 436, 420 ]
+164 silly gunzTarPerm extractEntry lib/cli/commands/upgrade.js
+165 silly gunzTarPerm modified mode [ 'lib/cli/commands/upgrade.js', 436, 420 ]
+166 silly gunzTarPerm extractEntry lib/cli/commands/add.js
+167 silly gunzTarPerm modified mode [ 'lib/cli/commands/add.js', 436, 420 ]
+168 silly gunzTarPerm extractEntry lib/cli/commands/version.js
+169 silly gunzTarPerm modified mode [ 'lib/cli/commands/version.js', 436, 420 ]
+170 silly gunzTarPerm extractEntry lib/cli/commands/access.js
+171 silly gunzTarPerm modified mode [ 'lib/cli/commands/access.js', 436, 420 ]
+172 silly gunzTarPerm extractEntry lib/cli/commands/versions.js
+173 silly gunzTarPerm modified mode [ 'lib/cli/commands/versions.js', 436, 420 ]
+174 silly gunzTarPerm extractEntry lib/cli/commands/_useless.js
+175 silly gunzTarPerm modified mode [ 'lib/cli/commands/_useless.js', 436, 420 ]
+176 silly gunzTarPerm extractEntry lib/cli/commands/why.js
+177 silly gunzTarPerm modified mode [ 'lib/cli/commands/why.js', 436, 420 ]
+178 silly gunzTarPerm extractEntry lib/cli/commands/licenses.js
+179 silly gunzTarPerm modified mode [ 'lib/cli/commands/licenses.js', 436, 420 ]
+180 silly gunzTarPerm extractEntry lib/lockfile/parse.js
+181 silly gunzTarPerm modified mode [ 'lib/lockfile/parse.js', 436, 420 ]
+182 silly gunzTarPerm extractEntry lib/lockfile/stringify.js
+183 silly gunzTarPerm modified mode [ 'lib/lockfile/stringify.js', 436, 420 ]
+184 silly gunzTarPerm extractEntry lib/lockfile/wrapper.js
+185 silly gunzTarPerm modified mode [ 'lib/lockfile/wrapper.js', 436, 420 ]
+186 silly gunzTarPerm extractEntry lib/registries/base-registry.js
+187 silly gunzTarPerm modified mode [ 'lib/registries/base-registry.js', 436, 420 ]
+188 silly gunzTarPerm extractEntry lib/registries/index.js
+189 silly gunzTarPerm modified mode [ 'lib/registries/index.js', 436, 420 ]
+190 silly gunzTarPerm extractEntry lib/registries/is-request-to-registry.js
+191 silly gunzTarPerm modified mode [ 'lib/registries/is-request-to-registry.js', 436, 420 ]
+192 silly gunzTarPerm extractEntry lib/registries/npm-registry.js
+193 silly gunzTarPerm modified mode [ 'lib/registries/npm-registry.js', 436, 420 ]
+194 silly gunzTarPerm extractEntry lib/registries/yarn-registry.js
+195 silly gunzTarPerm modified mode [ 'lib/registries/yarn-registry.js', 436, 420 ]
+196 silly gunzTarPerm extractEntry lib/reporters/base-reporter.js
+197 silly gunzTarPerm modified mode [ 'lib/reporters/base-reporter.js', 436, 420 ]
+198 silly gunzTarPerm extractEntry lib/reporters/buffer-reporter.js
+199 silly gunzTarPerm modified mode [ 'lib/reporters/buffer-reporter.js', 436, 420 ]
+200 silly gunzTarPerm extractEntry lib/reporters/event-reporter.js
+201 silly gunzTarPerm modified mode [ 'lib/reporters/event-reporter.js', 436, 420 ]
+202 silly gunzTarPerm extractEntry lib/reporters/format.js
+203 silly gunzTarPerm modified mode [ 'lib/reporters/format.js', 436, 420 ]
+204 silly gunzTarPerm extractEntry lib/reporters/index.js
+205 silly gunzTarPerm modified mode [ 'lib/reporters/index.js', 436, 420 ]
+206 silly gunzTarPerm extractEntry lib/reporters/json-reporter.js
+207 silly gunzTarPerm modified mode [ 'lib/reporters/json-reporter.js', 436, 420 ]
+208 silly gunzTarPerm extractEntry lib/reporters/noop-reporter.js
+209 silly gunzTarPerm modified mode [ 'lib/reporters/noop-reporter.js', 436, 420 ]
+210 silly gunzTarPerm extractEntry lib/reporters/types.js
+211 silly gunzTarPerm modified mode [ 'lib/reporters/types.js', 436, 420 ]
+212 silly gunzTarPerm extractEntry lib/reporters/console/console-reporter.js
+213 silly gunzTarPerm modified mode [ 'lib/reporters/console/console-reporter.js', 436, 420 ]
+214 silly gunzTarPerm extractEntry lib/reporters/console/progress-bar.js
+215 silly gunzTarPerm modified mode [ 'lib/reporters/console/progress-bar.js', 436, 420 ]
+216 silly gunzTarPerm extractEntry lib/reporters/console/spinner-progress.js
+217 silly gunzTarPerm modified mode [ 'lib/reporters/console/spinner-progress.js', 436, 420 ]
+218 silly gunzTarPerm extractEntry lib/reporters/console/util.js
+219 silly gunzTarPerm modified mode [ 'lib/reporters/console/util.js', 436, 420 ]
+220 silly gunzTarPerm extractEntry lib/reporters/console/helpers/tree-helper.js
+221 silly gunzTarPerm modified mode [ 'lib/reporters/console/helpers/tree-helper.js', 436, 420 ]
+222 silly gunzTarPerm extractEntry lib/reporters/lang/en.js
+223 silly gunzTarPerm modified mode [ 'lib/reporters/lang/en.js', 436, 420 ]
+224 silly gunzTarPerm extractEntry lib/reporters/lang/index.js
+225 silly gunzTarPerm modified mode [ 'lib/reporters/lang/index.js', 436, 420 ]
+226 silly gunzTarPerm extractEntry lib/resolvers/base-resolver.js
+227 silly gunzTarPerm modified mode [ 'lib/resolvers/base-resolver.js', 436, 420 ]
+228 silly gunzTarPerm extractEntry lib/resolvers/index.js
+229 silly gunzTarPerm modified mode [ 'lib/resolvers/index.js', 436, 420 ]
+230 silly gunzTarPerm extractEntry lib/resolvers/exotics/bitbucket-resolver.js
+231 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/bitbucket-resolver.js', 436, 420 ]
+232 silly gunzTarPerm extractEntry lib/resolvers/exotics/exotic-resolver.js
+233 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/exotic-resolver.js', 436, 420 ]
+234 silly gunzTarPerm extractEntry lib/resolvers/exotics/file-resolver.js
+235 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/file-resolver.js', 436, 420 ]
+236 silly gunzTarPerm extractEntry lib/resolvers/exotics/gist-resolver.js
+237 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/gist-resolver.js', 436, 420 ]
+238 silly gunzTarPerm extractEntry lib/resolvers/exotics/git-resolver.js
+239 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/git-resolver.js', 436, 420 ]
+240 silly gunzTarPerm extractEntry lib/resolvers/exotics/github-resolver.js
+241 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/github-resolver.js', 436, 420 ]
+242 silly gunzTarPerm extractEntry lib/resolvers/exotics/gitlab-resolver.js
+243 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/gitlab-resolver.js', 436, 420 ]
+244 silly gunzTarPerm extractEntry lib/resolvers/exotics/hosted-git-resolver.js
+245 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/hosted-git-resolver.js', 436, 420 ]
+246 silly gunzTarPerm extractEntry lib/resolvers/exotics/registry-resolver.js
+247 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/registry-resolver.js', 436, 420 ]
+248 silly gunzTarPerm extractEntry lib/resolvers/exotics/tarball-resolver.js
+249 silly gunzTarPerm modified mode [ 'lib/resolvers/exotics/tarball-resolver.js', 436, 420 ]
+250 silly gunzTarPerm extractEntry lib/resolvers/registries/npm-resolver.js
+251 silly gunzTarPerm modified mode [ 'lib/resolvers/registries/npm-resolver.js', 436, 420 ]
+252 silly gunzTarPerm extractEntry lib/resolvers/registries/registry-resolver.js
+253 silly gunzTarPerm modified mode [ 'lib/resolvers/registries/registry-resolver.js', 436, 420 ]
+254 silly gunzTarPerm extractEntry lib/resolvers/registries/yarn-resolver.js
+255 silly gunzTarPerm modified mode [ 'lib/resolvers/registries/yarn-resolver.js', 436, 420 ]
+256 silly gunzTarPerm extractEntry lib/fetchers/base-fetcher.js
+257 silly gunzTarPerm modified mode [ 'lib/fetchers/base-fetcher.js', 436, 420 ]
+258 silly gunzTarPerm extractEntry lib/fetchers/copy-fetcher.js
+259 silly gunzTarPerm modified mode [ 'lib/fetchers/copy-fetcher.js', 436, 420 ]
+260 silly gunzTarPerm extractEntry lib/fetchers/git-fetcher.js
+261 silly gunzTarPerm modified mode [ 'lib/fetchers/git-fetcher.js', 436, 420 ]
+262 silly gunzTarPerm extractEntry lib/fetchers/index.js
+263 silly gunzTarPerm modified mode [ 'lib/fetchers/index.js', 436, 420 ]
+264 silly gunzTarPerm extractEntry lib/fetchers/tarball-fetcher.js
+265 silly gunzTarPerm modified mode [ 'lib/fetchers/tarball-fetcher.js', 436, 420 ]
+266 silly gunzTarPerm extractEntry lib/util/blocking-queue.js
+267 silly gunzTarPerm modified mode [ 'lib/util/blocking-queue.js', 436, 420 ]
+268 silly gunzTarPerm extractEntry lib/util/fs.js
+269 silly gunzTarPerm modified mode [ 'lib/util/fs.js', 436, 420 ]
+270 silly gunzTarPerm extractEntry lib/util/git.js
+271 silly gunzTarPerm modified mode [ 'lib/util/git.js', 436, 420 ]
+272 silly gunzTarPerm extractEntry lib/util/map.js
+273 silly gunzTarPerm modified mode [ 'lib/util/map.js', 436, 420 ]
+274 silly gunzTarPerm extractEntry lib/util/misc.js
+275 silly gunzTarPerm modified mode [ 'lib/util/misc.js', 436, 420 ]
+276 silly gunzTarPerm extractEntry lib/util/fix-cmd-win-slashes.js
+277 silly gunzTarPerm modified mode [ 'lib/util/fix-cmd-win-slashes.js', 436, 420 ]
+278 silly gunzTarPerm extractEntry lib/util/network.js
+279 silly gunzTarPerm modified mode [ 'lib/util/network.js', 436, 420 ]
+280 silly gunzTarPerm extractEntry lib/util/version.js
+281 silly gunzTarPerm modified mode [ 'lib/util/version.js', 436, 420 ]
+282 silly gunzTarPerm extractEntry lib/util/parse-package-name.js
+283 silly gunzTarPerm modified mode [ 'lib/util/parse-package-name.js', 436, 420 ]
+284 silly gunzTarPerm extractEntry lib/util/promise.js
+285 silly gunzTarPerm modified mode [ 'lib/util/promise.js', 436, 420 ]
+286 silly gunzTarPerm extractEntry lib/util/rc.js
+287 silly gunzTarPerm modified mode [ 'lib/util/rc.js', 436, 420 ]
+288 silly gunzTarPerm extractEntry lib/util/filter.js
+289 silly gunzTarPerm modified mode [ 'lib/util/filter.js', 436, 420 ]
+290 silly gunzTarPerm extractEntry lib/util/request-manager.js
+291 silly gunzTarPerm modified mode [ 'lib/util/request-manager.js', 436, 420 ]
+292 silly gunzTarPerm extractEntry lib/util/execute-lifecycle-script.js
+293 silly gunzTarPerm modified mode [ 'lib/util/execute-lifecycle-script.js', 436, 420 ]
+294 silly gunzTarPerm extractEntry lib/util/root-user.js
+295 silly gunzTarPerm modified mode [ 'lib/util/root-user.js', 436, 420 ]
+296 silly gunzTarPerm extractEntry lib/util/env-replace.js
+297 silly gunzTarPerm modified mode [ 'lib/util/env-replace.js', 436, 420 ]
+298 silly gunzTarPerm extractEntry lib/util/stream.js
+299 silly gunzTarPerm modified mode [ 'lib/util/stream.js', 436, 420 ]
+300 silly gunzTarPerm extractEntry lib/util/crypto.js
+301 silly gunzTarPerm modified mode [ 'lib/util/crypto.js', 436, 420 ]
+302 silly gunzTarPerm extractEntry lib/util/user-home-dir.js
+303 silly gunzTarPerm modified mode [ 'lib/util/user-home-dir.js', 436, 420 ]
+304 silly gunzTarPerm extractEntry lib/util/child.js
+305 silly gunzTarPerm modified mode [ 'lib/util/child.js', 436, 420 ]
+306 silly gunzTarPerm extractEntry lib/util/yarn-version.js
+307 silly gunzTarPerm modified mode [ 'lib/util/yarn-version.js', 436, 420 ]
+308 silly gunzTarPerm extractEntry lib/util/mutex.js
+309 silly gunzTarPerm modified mode [ 'lib/util/mutex.js', 436, 420 ]
+310 silly gunzTarPerm extractEntry lib/util/normalize-manifest/fix.js
+311 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/fix.js', 436, 420 ]
+312 silly gunzTarPerm extractEntry lib/util/normalize-manifest/index.js
+313 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/index.js', 436, 420 ]
+314 silly gunzTarPerm extractEntry lib/util/normalize-manifest/infer-license.js
+315 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/infer-license.js', 436, 420 ]
+316 silly gunzTarPerm extractEntry lib/util/normalize-manifest/licenses.js
+317 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/licenses.js', 436, 420 ]
+318 silly gunzTarPerm extractEntry lib/util/normalize-manifest/typos.js
+319 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/typos.js', 436, 420 ]
+320 silly gunzTarPerm extractEntry lib/util/normalize-manifest/util.js
+321 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/util.js', 436, 420 ]
+322 silly gunzTarPerm extractEntry lib/util/normalize-manifest/validate.js
+323 silly gunzTarPerm modified mode [ 'lib/util/normalize-manifest/validate.js', 436, 420 ]
+324 silly gunzTarPerm extractEntry lib-legacy/api.js
+325 silly gunzTarPerm modified mode [ 'lib-legacy/api.js', 436, 420 ]
+326 silly gunzTarPerm extractEntry lib-legacy/types.js
+327 silly gunzTarPerm modified mode [ 'lib-legacy/types.js', 436, 420 ]
+328 silly gunzTarPerm extractEntry lib-legacy/integrity-checker.js
+329 silly gunzTarPerm modified mode [ 'lib-legacy/integrity-checker.js', 436, 420 ]
+330 silly gunzTarPerm extractEntry lib-legacy/rc.js
+331 silly gunzTarPerm modified mode [ 'lib-legacy/rc.js', 436, 420 ]
+332 silly gunzTarPerm extractEntry lib-legacy/errors.js
+333 silly gunzTarPerm modified mode [ 'lib-legacy/errors.js', 436, 420 ]
+334 silly gunzTarPerm extractEntry lib-legacy/package-constraint-resolver.js
+335 silly gunzTarPerm modified mode [ 'lib-legacy/package-constraint-resolver.js', 436, 420 ]
+336 silly gunzTarPerm extractEntry lib-legacy/package-fetcher.js
+337 silly gunzTarPerm modified mode [ 'lib-legacy/package-fetcher.js', 436, 420 ]
+338 silly gunzTarPerm extractEntry lib-legacy/package-resolver.js
+339 silly gunzTarPerm modified mode [ 'lib-legacy/package-resolver.js', 436, 420 ]
+340 silly gunzTarPerm extractEntry lib-legacy/package-install-scripts.js
+341 silly gunzTarPerm modified mode [ 'lib-legacy/package-install-scripts.js', 436, 420 ]
+342 silly gunzTarPerm extractEntry lib-legacy/package-linker.js
+343 silly gunzTarPerm modified mode [ 'lib-legacy/package-linker.js', 436, 420 ]
+344 silly gunzTarPerm extractEntry lib-legacy/constants.js
+345 silly gunzTarPerm modified mode [ 'lib-legacy/constants.js', 436, 420 ]
+346 silly gunzTarPerm extractEntry lib-legacy/package-reference.js
+347 silly gunzTarPerm modified mode [ 'lib-legacy/package-reference.js', 436, 420 ]
+348 silly gunzTarPerm extractEntry lib-legacy/config.js
+349 silly gunzTarPerm modified mode [ 'lib-legacy/config.js', 436, 420 ]
+350 silly gunzTarPerm extractEntry lib-legacy/package-request.js
+351 silly gunzTarPerm modified mode [ 'lib-legacy/package-request.js', 436, 420 ]
+352 silly gunzTarPerm extractEntry lib-legacy/package-compatibility.js
+353 silly gunzTarPerm modified mode [ 'lib-legacy/package-compatibility.js', 436, 420 ]
+354 silly gunzTarPerm extractEntry lib-legacy/package-hoister.js
+355 silly gunzTarPerm modified mode [ 'lib-legacy/package-hoister.js', 436, 420 ]
+356 silly gunzTarPerm extractEntry lib-legacy/cli/aliases.js
+357 silly gunzTarPerm modified mode [ 'lib-legacy/cli/aliases.js', 436, 420 ]
+358 silly gunzTarPerm extractEntry lib-legacy/cli/index.js
+359 silly gunzTarPerm modified mode [ 'lib-legacy/cli/index.js', 436, 420 ]
+360 silly gunzTarPerm extractEntry lib-legacy/cli/unsupported-aliases.js
+361 silly gunzTarPerm modified mode [ 'lib-legacy/cli/unsupported-aliases.js', 436, 420 ]
+362 silly gunzTarPerm extractEntry lib-legacy/cli/commands/_build-sub-commands.js
+363 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/_build-sub-commands.js', 436, 420 ]
+364 silly gunzTarPerm extractEntry lib-legacy/cli/commands/info.js
+365 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/info.js', 436, 420 ]
+366 silly gunzTarPerm extractEntry lib-legacy/cli/commands/init.js
+367 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/init.js', 436, 420 ]
+368 silly gunzTarPerm extractEntry lib-legacy/cli/commands/install.js
+369 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/install.js', 436, 420 ]
+370 silly gunzTarPerm extractEntry lib-legacy/cli/commands/index.js
+371 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/index.js', 436, 420 ]
+372 silly gunzTarPerm extractEntry lib-legacy/cli/commands/link.js
+373 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/link.js', 436, 420 ]
+374 silly gunzTarPerm extractEntry lib-legacy/cli/commands/list.js
+375 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/list.js', 436, 420 ]
+376 silly gunzTarPerm extractEntry lib-legacy/cli/commands/login.js
+377 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/login.js', 436, 420 ]
+378 silly gunzTarPerm extractEntry lib-legacy/cli/commands/logout.js
+379 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/logout.js', 436, 420 ]
+380 silly gunzTarPerm extractEntry lib-legacy/cli/commands/outdated.js
+381 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/outdated.js', 436, 420 ]
+382 silly gunzTarPerm extractEntry lib-legacy/cli/commands/import.js
+383 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/import.js', 436, 420 ]
+384 silly gunzTarPerm extractEntry lib-legacy/cli/commands/owner.js
+385 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/owner.js', 436, 420 ]
+386 silly gunzTarPerm extractEntry lib-legacy/cli/commands/help.js
+387 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/help.js', 436, 420 ]
+388 silly gunzTarPerm extractEntry lib-legacy/cli/commands/pack.js
+389 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/pack.js', 436, 420 ]
+390 silly gunzTarPerm extractEntry lib-legacy/cli/commands/global.js
+391 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/global.js', 436, 420 ]
+392 silly gunzTarPerm extractEntry lib-legacy/cli/commands/publish.js
+393 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/publish.js', 436, 420 ]
+394 silly gunzTarPerm extractEntry lib-legacy/cli/commands/generate-lock-entry.js
+395 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/generate-lock-entry.js', 436, 420 ]
+396 silly gunzTarPerm extractEntry lib-legacy/cli/commands/remove.js
+397 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/remove.js', 436, 420 ]
+398 silly gunzTarPerm extractEntry lib-legacy/cli/commands/create.js
+399 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/create.js', 436, 420 ]
+400 silly gunzTarPerm extractEntry lib-legacy/cli/commands/run.js
+401 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/run.js', 436, 420 ]
+402 silly gunzTarPerm extractEntry lib-legacy/cli/commands/config.js
+403 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/config.js', 436, 420 ]
+404 silly gunzTarPerm extractEntry lib-legacy/cli/commands/tag.js
+405 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/tag.js', 436, 420 ]
+406 silly gunzTarPerm extractEntry lib-legacy/cli/commands/clean.js
+407 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/clean.js', 436, 420 ]
+408 silly gunzTarPerm extractEntry lib-legacy/cli/commands/team.js
+409 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/team.js', 436, 420 ]
+410 silly gunzTarPerm extractEntry lib-legacy/cli/commands/check.js
+411 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/check.js', 436, 420 ]
+412 silly gunzTarPerm extractEntry lib-legacy/cli/commands/unlink.js
+413 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/unlink.js', 436, 420 ]
+414 silly gunzTarPerm extractEntry lib-legacy/cli/commands/cache.js
+415 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/cache.js', 436, 420 ]
+416 silly gunzTarPerm extractEntry lib-legacy/cli/commands/upgrade-interactive.js
+417 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/upgrade-interactive.js', 436, 420 ]
+418 silly gunzTarPerm extractEntry lib-legacy/cli/commands/bin.js
+419 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/bin.js', 436, 420 ]
+420 silly gunzTarPerm extractEntry lib-legacy/cli/commands/upgrade.js
+421 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/upgrade.js', 436, 420 ]
+422 silly gunzTarPerm extractEntry lib-legacy/cli/commands/add.js
+423 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/add.js', 436, 420 ]
+424 silly gunzTarPerm extractEntry lib-legacy/cli/commands/version.js
+425 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/version.js', 436, 420 ]
+426 silly gunzTarPerm extractEntry lib-legacy/cli/commands/access.js
+427 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/access.js', 436, 420 ]
+428 silly gunzTarPerm extractEntry lib-legacy/cli/commands/versions.js
+429 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/versions.js', 436, 420 ]
+430 silly gunzTarPerm extractEntry lib-legacy/cli/commands/_useless.js
+431 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/_useless.js', 436, 420 ]
+432 silly gunzTarPerm extractEntry lib-legacy/cli/commands/why.js
+433 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/why.js', 436, 420 ]
+434 silly gunzTarPerm extractEntry lib-legacy/cli/commands/licenses.js
+435 silly gunzTarPerm modified mode [ 'lib-legacy/cli/commands/licenses.js', 436, 420 ]
+436 silly gunzTarPerm extractEntry lib-legacy/lockfile/parse.js
+437 silly gunzTarPerm modified mode [ 'lib-legacy/lockfile/parse.js', 436, 420 ]
+438 silly gunzTarPerm extractEntry lib-legacy/lockfile/stringify.js
+439 silly gunzTarPerm modified mode [ 'lib-legacy/lockfile/stringify.js', 436, 420 ]
+440 silly gunzTarPerm extractEntry lib-legacy/lockfile/wrapper.js
+441 silly gunzTarPerm modified mode [ 'lib-legacy/lockfile/wrapper.js', 436, 420 ]
+442 silly gunzTarPerm extractEntry lib-legacy/registries/base-registry.js
+443 silly gunzTarPerm modified mode [ 'lib-legacy/registries/base-registry.js', 436, 420 ]
+444 silly gunzTarPerm extractEntry lib-legacy/registries/index.js
+445 silly gunzTarPerm modified mode [ 'lib-legacy/registries/index.js', 436, 420 ]
+446 silly gunzTarPerm extractEntry lib-legacy/registries/is-request-to-registry.js
+447 silly gunzTarPerm modified mode [ 'lib-legacy/registries/is-request-to-registry.js', 436, 420 ]
+448 silly gunzTarPerm extractEntry lib-legacy/registries/npm-registry.js
+449 silly gunzTarPerm modified mode [ 'lib-legacy/registries/npm-registry.js', 436, 420 ]
+450 silly gunzTarPerm extractEntry lib-legacy/registries/yarn-registry.js
+451 silly gunzTarPerm modified mode [ 'lib-legacy/registries/yarn-registry.js', 436, 420 ]
+452 silly gunzTarPerm extractEntry lib-legacy/reporters/base-reporter.js
+453 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/base-reporter.js', 436, 420 ]
+454 silly gunzTarPerm extractEntry lib-legacy/reporters/buffer-reporter.js
+455 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/buffer-reporter.js', 436, 420 ]
+456 silly gunzTarPerm extractEntry lib-legacy/reporters/event-reporter.js
+457 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/event-reporter.js', 436, 420 ]
+458 silly gunzTarPerm extractEntry lib-legacy/reporters/format.js
+459 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/format.js', 436, 420 ]
+460 silly gunzTarPerm extractEntry lib-legacy/reporters/index.js
+461 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/index.js', 436, 420 ]
+462 silly gunzTarPerm extractEntry lib-legacy/reporters/json-reporter.js
+463 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/json-reporter.js', 436, 420 ]
+464 silly gunzTarPerm extractEntry lib-legacy/reporters/noop-reporter.js
+465 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/noop-reporter.js', 436, 420 ]
+466 silly gunzTarPerm extractEntry lib-legacy/reporters/types.js
+467 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/types.js', 436, 420 ]
+468 silly gunzTarPerm extractEntry lib-legacy/reporters/console/console-reporter.js
+469 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/console/console-reporter.js', 436, 420 ]
+470 silly gunzTarPerm extractEntry lib-legacy/reporters/console/progress-bar.js
+471 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/console/progress-bar.js', 436, 420 ]
+472 silly gunzTarPerm extractEntry lib-legacy/reporters/console/spinner-progress.js
+473 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/console/spinner-progress.js', 436, 420 ]
+474 silly gunzTarPerm extractEntry lib-legacy/reporters/console/util.js
+475 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/console/util.js', 436, 420 ]
+476 silly gunzTarPerm extractEntry lib-legacy/reporters/console/helpers/tree-helper.js
+477 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/console/helpers/tree-helper.js',
+477 silly gunzTarPerm   436,
+477 silly gunzTarPerm   420 ]
+478 silly gunzTarPerm extractEntry lib-legacy/reporters/lang/en.js
+479 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/lang/en.js', 436, 420 ]
+480 silly gunzTarPerm extractEntry lib-legacy/reporters/lang/index.js
+481 silly gunzTarPerm modified mode [ 'lib-legacy/reporters/lang/index.js', 436, 420 ]
+482 silly gunzTarPerm extractEntry lib-legacy/resolvers/base-resolver.js
+483 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/base-resolver.js', 436, 420 ]
+484 silly gunzTarPerm extractEntry lib-legacy/resolvers/index.js
+485 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/index.js', 436, 420 ]
+486 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/bitbucket-resolver.js
+487 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/bitbucket-resolver.js',
+487 silly gunzTarPerm   436,
+487 silly gunzTarPerm   420 ]
+488 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/exotic-resolver.js
+489 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/exotic-resolver.js', 436, 420 ]
+490 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/file-resolver.js
+491 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/file-resolver.js', 436, 420 ]
+492 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/gist-resolver.js
+493 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/gist-resolver.js', 436, 420 ]
+494 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/git-resolver.js
+495 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/git-resolver.js', 436, 420 ]
+496 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/github-resolver.js
+497 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/github-resolver.js', 436, 420 ]
+498 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/gitlab-resolver.js
+499 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/gitlab-resolver.js', 436, 420 ]
+500 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/hosted-git-resolver.js
+501 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/hosted-git-resolver.js',
+501 silly gunzTarPerm   436,
+501 silly gunzTarPerm   420 ]
+502 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/registry-resolver.js
+503 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/registry-resolver.js', 436, 420 ]
+504 silly gunzTarPerm extractEntry lib-legacy/resolvers/exotics/tarball-resolver.js
+505 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/exotics/tarball-resolver.js', 436, 420 ]
+506 silly gunzTarPerm extractEntry lib-legacy/resolvers/registries/npm-resolver.js
+507 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/registries/npm-resolver.js', 436, 420 ]
+508 silly gunzTarPerm extractEntry lib-legacy/resolvers/registries/registry-resolver.js
+509 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/registries/registry-resolver.js',
+509 silly gunzTarPerm   436,
+509 silly gunzTarPerm   420 ]
+510 silly gunzTarPerm extractEntry lib-legacy/resolvers/registries/yarn-resolver.js
+511 silly gunzTarPerm modified mode [ 'lib-legacy/resolvers/registries/yarn-resolver.js', 436, 420 ]
+512 silly gunzTarPerm extractEntry lib-legacy/fetchers/base-fetcher.js
+513 silly gunzTarPerm modified mode [ 'lib-legacy/fetchers/base-fetcher.js', 436, 420 ]
+514 silly gunzTarPerm extractEntry lib-legacy/fetchers/copy-fetcher.js
+515 silly gunzTarPerm modified mode [ 'lib-legacy/fetchers/copy-fetcher.js', 436, 420 ]
+516 silly gunzTarPerm extractEntry lib-legacy/fetchers/git-fetcher.js
+517 silly gunzTarPerm modified mode [ 'lib-legacy/fetchers/git-fetcher.js', 436, 420 ]
+518 silly gunzTarPerm extractEntry lib-legacy/fetchers/index.js
+519 silly gunzTarPerm modified mode [ 'lib-legacy/fetchers/index.js', 436, 420 ]
+520 silly gunzTarPerm extractEntry lib-legacy/fetchers/tarball-fetcher.js
+521 silly gunzTarPerm modified mode [ 'lib-legacy/fetchers/tarball-fetcher.js', 436, 420 ]
+522 silly gunzTarPerm extractEntry lib-legacy/util/blocking-queue.js
+523 silly gunzTarPerm modified mode [ 'lib-legacy/util/blocking-queue.js', 436, 420 ]
+524 silly gunzTarPerm extractEntry lib-legacy/util/fs.js
+525 silly gunzTarPerm modified mode [ 'lib-legacy/util/fs.js', 436, 420 ]
+526 silly gunzTarPerm extractEntry lib-legacy/util/git.js
+527 silly gunzTarPerm modified mode [ 'lib-legacy/util/git.js', 436, 420 ]
+528 silly gunzTarPerm extractEntry lib-legacy/util/map.js
+529 silly gunzTarPerm modified mode [ 'lib-legacy/util/map.js', 436, 420 ]
+530 silly gunzTarPerm extractEntry lib-legacy/util/misc.js
+531 silly gunzTarPerm modified mode [ 'lib-legacy/util/misc.js', 436, 420 ]
+532 silly gunzTarPerm extractEntry lib-legacy/util/fix-cmd-win-slashes.js
+533 silly gunzTarPerm modified mode [ 'lib-legacy/util/fix-cmd-win-slashes.js', 436, 420 ]
+534 silly gunzTarPerm extractEntry lib-legacy/util/network.js
+535 silly gunzTarPerm modified mode [ 'lib-legacy/util/network.js', 436, 420 ]
+536 silly gunzTarPerm extractEntry lib-legacy/util/version.js
+537 silly gunzTarPerm modified mode [ 'lib-legacy/util/version.js', 436, 420 ]
+538 silly gunzTarPerm extractEntry lib-legacy/util/parse-package-name.js
+539 silly gunzTarPerm modified mode [ 'lib-legacy/util/parse-package-name.js', 436, 420 ]
+540 silly gunzTarPerm extractEntry lib-legacy/util/promise.js
+541 silly gunzTarPerm modified mode [ 'lib-legacy/util/promise.js', 436, 420 ]
+542 silly gunzTarPerm extractEntry lib-legacy/util/rc.js
+543 silly gunzTarPerm modified mode [ 'lib-legacy/util/rc.js', 436, 420 ]
+544 silly gunzTarPerm extractEntry lib-legacy/util/filter.js
+545 silly gunzTarPerm modified mode [ 'lib-legacy/util/filter.js', 436, 420 ]
+546 silly gunzTarPerm extractEntry lib-legacy/util/request-manager.js
+547 silly gunzTarPerm modified mode [ 'lib-legacy/util/request-manager.js', 436, 420 ]
+548 silly gunzTarPerm extractEntry lib-legacy/util/execute-lifecycle-script.js
+549 silly gunzTarPerm modified mode [ 'lib-legacy/util/execute-lifecycle-script.js', 436, 420 ]
+550 silly gunzTarPerm extractEntry lib-legacy/util/root-user.js
+551 silly gunzTarPerm modified mode [ 'lib-legacy/util/root-user.js', 436, 420 ]
+552 silly gunzTarPerm extractEntry lib-legacy/util/env-replace.js
+553 silly gunzTarPerm modified mode [ 'lib-legacy/util/env-replace.js', 436, 420 ]
+554 silly gunzTarPerm extractEntry lib-legacy/util/stream.js
+555 silly gunzTarPerm modified mode [ 'lib-legacy/util/stream.js', 436, 420 ]
+556 silly gunzTarPerm extractEntry lib-legacy/util/crypto.js
+557 silly gunzTarPerm modified mode [ 'lib-legacy/util/crypto.js', 436, 420 ]
+558 silly gunzTarPerm extractEntry lib-legacy/util/user-home-dir.js
+559 silly gunzTarPerm modified mode [ 'lib-legacy/util/user-home-dir.js', 436, 420 ]
+560 silly gunzTarPerm extractEntry lib-legacy/util/child.js
+561 silly gunzTarPerm modified mode [ 'lib-legacy/util/child.js', 436, 420 ]
+562 silly gunzTarPerm extractEntry lib-legacy/util/yarn-version.js
+563 silly gunzTarPerm modified mode [ 'lib-legacy/util/yarn-version.js', 436, 420 ]
+564 silly gunzTarPerm extractEntry lib-legacy/util/mutex.js
+565 silly gunzTarPerm modified mode [ 'lib-legacy/util/mutex.js', 436, 420 ]
+566 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/fix.js
+567 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/fix.js', 436, 420 ]
+568 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/index.js
+569 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/index.js', 436, 420 ]
+570 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/infer-license.js
+571 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/infer-license.js',
+571 silly gunzTarPerm   436,
+571 silly gunzTarPerm   420 ]
+572 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/licenses.js
+573 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/licenses.js', 436, 420 ]
+574 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/typos.js
+575 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/typos.js', 436, 420 ]
+576 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/util.js
+577 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/util.js', 436, 420 ]
+578 silly gunzTarPerm extractEntry lib-legacy/util/normalize-manifest/validate.js
+579 silly gunzTarPerm modified mode [ 'lib-legacy/util/normalize-manifest/validate.js', 436, 420 ]
+580 silly gunzTarPerm extractEntry yarn.lock
+581 silly gunzTarPerm modified mode [ 'yarn.lock', 436, 420 ]
+582 silly lockFile a6854bcc-ng-npm-cache-yarn-0-24-5-package tar://C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package
+583 silly lockFile a6854bcc-ng-npm-cache-yarn-0-24-5-package tar://C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package
+584 silly lockFile 99daa748-9036-0-27894794770957776-tmp-tgz tar://C:\Users\Nick\AppData\Local\Temp\npm-12788-5z5_vl02\1497587529036-0.27894794770957776\tmp.tgz
+585 silly lockFile 99daa748-9036-0-27894794770957776-tmp-tgz tar://C:\Users\Nick\AppData\Local\Temp\npm-12788-5z5_vl02\1497587529036-0.27894794770957776\tmp.tgz
+586 silly lockFile e1676912-y-npmjs-org-yarn-yarn-0-24-5-tgz https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz
+587 silly lockFile e1676912-y-npmjs-org-yarn-yarn-0-24-5-tgz https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz
+588 silly lockFile 46f2d28b-yarn-0-24-5 yarn@0.24.5
+589 silly lockFile 46f2d28b-yarn-0-24-5 yarn@0.24.5
+590 silly lockFile d5475ddd-yarn yarn@
+591 silly lockFile d5475ddd-yarn yarn@
+592 silly resolved [ { name: 'yarn',
+592 silly resolved     installationMethod: 'npm',
+592 silly resolved     version: '0.24.5',
+592 silly resolved     license: 'BSD-2-Clause',
+592 silly resolved     preferGlobal: true,
+592 silly resolved     description: '📦🐈 Fast, reliable, and secure dependency management.',
+592 silly resolved     dependencies:
+592 silly resolved      { 'babel-runtime': '^6.0.0',
+592 silly resolved        bytes: '^2.4.0',
+592 silly resolved        camelcase: '^4.0.0',
+592 silly resolved        chalk: '^1.1.1',
+592 silly resolved        'cmd-shim': '^2.0.1',
+592 silly resolved        commander: '^2.9.0',
+592 silly resolved        death: '^1.0.0',
+592 silly resolved        debug: '^2.2.0',
+592 silly resolved        'detect-indent': '^5.0.0',
+592 silly resolved        'gunzip-maybe': '^1.4.0',
+592 silly resolved        ini: '^1.3.4',
+592 silly resolved        inquirer: '^3.0.1',
+592 silly resolved        invariant: '^2.2.0',
+592 silly resolved        'is-builtin-module': '^1.0.0',
+592 silly resolved        'is-ci': '^1.0.10',
+592 silly resolved        leven: '^2.0.0',
+592 silly resolved        'loud-rejection': '^1.2.0',
+592 silly resolved        minimatch: '^3.0.3',
+592 silly resolved        mkdirp: '^0.5.1',
+592 silly resolved        'node-emoji': '^1.0.4',
+592 silly resolved        'object-path': '^0.11.2',
+592 silly resolved        'proper-lockfile': '^2.0.0',
+592 silly resolved        read: '^1.0.7',
+592 silly resolved        request: '^2.81.0',
+592 silly resolved        'request-capture-har': '^1.2.2',
+592 silly resolved        rimraf: '^2.5.0',
+592 silly resolved        semver: '^5.1.0',
+592 silly resolved        'strip-bom': '^3.0.0',
+592 silly resolved        'tar-fs': '^1.15.1',
+592 silly resolved        'tar-stream': '^1.5.2',
+592 silly resolved        uuid: '^3.0.1',
+592 silly resolved        'v8-compile-cache': '^1.1.0',
+592 silly resolved        'validate-npm-package-license': '^3.0.1' },
+592 silly resolved     devDependencies:
+592 silly resolved      { 'babel-core': '^6.17.0',
+592 silly resolved        'babel-eslint': '^6.1.2',
+592 silly resolved        'babel-jest': '^19.0.0',
+592 silly resolved        'babel-loader': '^6.2.5',
+592 silly resolved        'babel-plugin-transform-es2015-typeof-symbol': '^6.8.0',
+592 silly resolved        'babel-plugin-transform-inline-imports-commonjs': '^1.0.0',
+592 silly resolved        'babel-plugin-transform-runtime': '^6.4.3',
+592 silly resolved        'babel-preset-es2015-node4': '^2.1.0',
+592 silly resolved        'babel-preset-node5': '^10.2.0',
+592 silly resolved        'babel-preset-stage-0': '^6.0.0',
+592 silly resolved        babylon: '^6.5.0',
+592 silly resolved        eslint: '^3.3.1',
+592 silly resolved        'eslint-config-fb-strict': '^14.1.3',
+592 silly resolved        'eslint-config-fbjs': '^1.0.0',
+592 silly resolved        'eslint-plugin-babel': '^3.3.0',
+592 silly resolved        'eslint-plugin-flowtype': '^2.15.0',
+592 silly resolved        'eslint-plugin-no-async-without-await': '^1.0.0',
+592 silly resolved        'eslint-plugin-react': '5.2.2',
+592 silly resolved        'eslint-plugin-yarn-internal': 'file:scripts/eslint-rules',
+592 silly resolved        'flow-bin': '^0.43.0',
+592 silly resolved        gulp: '^3.9.0',
+592 silly resolved        'gulp-babel': '^6.0.0',
+592 silly resolved        'gulp-if': '^2.0.1',
+592 silly resolved        'gulp-newer': '^1.0.0',
+592 silly resolved        'gulp-plumber': '^1.0.1',
+592 silly resolved        'gulp-sourcemaps': '^2.2.0',
+592 silly resolved        'gulp-util': '^3.0.7',
+592 silly resolved        'gulp-watch': '^4.3.5',
+592 silly resolved        jest: '^19.0.2',
+592 silly resolved        'mock-stdin': '^0.3.0',
+592 silly resolved        temp: '^0.8.3',
+592 silly resolved        webpack: '^2.1.0-beta.25',
+592 silly resolved        yargs: '^6.3.0' },
+592 silly resolved     engines: { node: '>=4.0.0' },
+592 silly resolved     repository: { type: 'git', url: 'git://github.com/yarnpkg/yarn' },
+592 silly resolved     bin: { yarn: './bin/yarn.js', yarnpkg: './bin/yarn.js' },
+592 silly resolved     scripts:
+592 silly resolved      { test: 'npm run lint && npm run test-only',
+592 silly resolved        'test-ci': 'npm run build && npm run test-only',
+592 silly resolved        'check-lockfile': './scripts/check-lockfile.sh',
+592 silly resolved        build: 'gulp build',
+592 silly resolved        watch: 'gulp watch',
+592 silly resolved        'test-only': 'jest --coverage --verbose',
+592 silly resolved        lint: 'eslint . && flow check',
+592 silly resolved        'release-branch': './scripts/release-branch.sh',
+592 silly resolved        'build-bundle': 'node ./scripts/build-webpack.js',
+592 silly resolved        'build-deb': './scripts/build-deb.sh',
+592 silly resolved        'build-dist': 'bash ./scripts/build-dist.sh',
+592 silly resolved        'build-chocolatey': 'powershell ./scripts/build-chocolatey.ps1',
+592 silly resolved        'build-win-installer': 'scripts\\build-windows-installer.bat' },
+592 silly resolved     jest:
+592 silly resolved      { collectCoverageFrom: [Array],
+592 silly resolved        timers: 'fake',
+592 silly resolved        testEnvironment: 'node',
+592 silly resolved        modulePathIgnorePatterns: [Array],
+592 silly resolved        testPathIgnorePatterns: [Array] },
+592 silly resolved     readme: '<p align="center">\n  <a href="https://yarnpkg.com/">\n    <img alt="Yarn" src="https://github.com/yarnpkg/assets/blob/master/yarn-kitten-full.png?raw=true" width="546">\n  </a>\n</p>\n\n<p align="center">\n  Fast, reliable, and secure dependency management.\n</p>\n\n<p align="center">\n  <a href="https://travis-ci.org/yarnpkg/yarn"><img alt="Travis Status" src="https://travis-ci.org/yarnpkg/yarn.svg"></a>\n  <a href="https://circleci.com/gh/yarnpkg/yarn"><img alt="Circle Status" src="https://circleci.com/gh/yarnpkg/yarn.svg?style=shield&circle-token=5f0a78473b0f440afb218bf2b82323cc6b3cb43f"></a>\n  <a href="https://ci.appveyor.com/project/kittens/yarn/branch/master"><img alt="Appveyor Status" src="https://ci.appveyor.com/api/projects/status/0xdv8chwe2kmk463?svg=true"></a>\n  <a href="https://discord.gg/yarnpkg"><img alt="Discord Chat" src="https://img.shields.io/discord/226791405589233664.svg"></a>\n</p>\n\n---\n\n**Fast:** Yarn caches every package it downloads so it never needs to download the same package again. It also parallelizes operations to maximize resource utilization so install times are faster than ever.\n\n**Reliable:** Using a detailed, concise lockfile format and a deterministic algorithm for installs, Yarn is able to guarantee that an install that worked on one system will work exactly the same way on any other system.\n\n**Secure:** Yarn uses checksums to verify the integrity of every installed package before its code is executed.\n\n## Features\n\n* **Offline Mode.** If you\'ve installed a package before, you can install it again without any internet connection.\n* **Deterministic.** The same dependencies will be installed in the same exact way on any machine, regardless of install order.\n* **Network Performance.** Yarn efficiently queues up requests and avoids request waterfalls in order to maximize network utilization.\n* **Network Resilience.** A single request failing won\'t cause an install to fail. Requests are retried upon failure.\n* **Flat Mode.** Yarn resolves mismatched versions of dependencies to a single version to avoid creating duplicates.\n* **More emojis.** 🐈\n\n## Installing Yarn\n\nRead the [Installation Guide](https://yarnpkg.com/en/docs/install) on our website for detailed instructions on how to install Yarn.\n\n## Using Yarn\n\nRead the [Usage Guide](https://yarnpkg.com/en/docs/usage) on our website for detailed instructions on how to use Yarn.\n\n## Contributing to Yarn\n\nContributions are always welcome, no matter how large or small. Substantial feature requests should be proposed as an [RFC](https://github.com/yarnpkg/rfcs). Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md).\n\nSee [Contributing](CONTRIBUTING.md).\n\n## Prior art\n\nYarn wouldn\'t exist if it wasn\'t for excellent prior art. Yarn has been inspired by the following projects:\n\n - [Bundler](https://github.com/bundler/bundler)\n - [Cargo](https://github.com/rust-lang/cargo)\n - [npm](https://github.com/npm/npm)\n\n## Credits\n\nThanks to [Sam Holmes](https://github.com/samholmes) for donating the npm package name!\n',
+592 silly resolved     readmeFilename: 'README.md',
+592 silly resolved     bugs: { url: 'https://github.com/yarnpkg/yarn/issues' },
+592 silly resolved     homepage: 'https://github.com/yarnpkg/yarn',
+592 silly resolved     _id: 'yarn@0.24.5',
+592 silly resolved     _shasum: '92c72adf4de8dacccaf6b4259eb4990f6c4f8e3b',
+592 silly resolved     _from: 'yarn@',
+592 silly resolved     _resolved: 'https://registry.npmjs.org/yarn/-/yarn-0.24.5.tgz' } ]
+593 info install yarn@0.24.5 into C:\Program Files\nodejs
+594 info installOne yarn@0.24.5
+595 info C:\Program Files\nodejs\node_modules\yarn unbuild
+596 verbose tar unpack C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package.tgz
+597 silly lockFile 7cf3e801-m-Files-nodejs-node-modules-yarn tar://C:\Program Files\nodejs\node_modules\yarn
+598 verbose lock tar://C:\Program Files\nodejs\node_modules\yarn C:\Users\Nick\AppData\Roaming\npm-cache\7cf3e801-m-Files-nodejs-node-modules-yarn.lock
+599 silly lockFile d453433d-pm-cache-yarn-0-24-5-package-tgz tar://C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package.tgz
+600 verbose lock tar://C:\Users\Nick\AppData\Roaming\npm-cache\yarn\0.24.5\package.tgz C:\Users\Nick\AppData\Roaming\npm-cache\d453433d-pm-cache-yarn-0-24-5-package-tgz.lock
+601 silly gunzTarPerm modes [ '755', '644' ]
+602 error Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\yarn'
+602 error  { Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\yarn'
+602 error   errno: -4048,
+602 error   code: 'EPERM',
+602 error   syscall: 'mkdir',
+602 error   path: 'C:\\Program Files\\nodejs\\node_modules\\yarn',
+602 error   fstream_type: 'Directory',
+602 error   fstream_path: 'C:\\Program Files\\nodejs\\node_modules\\yarn',
+602 error   fstream_class: 'DirWriter',
+602 error   fstream_stack:
+602 error    [ 'C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\node_modules\\fstream\\lib\\dir-writer.js:36:23',
+602 error      'C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\node_modules\\mkdirp\\index.js:37:53',
+602 error      'FSReqWrap.oncomplete (fs.js:152:21)' ] }
+603 error Please try running this command again as root/Administrator.
+604 error System Windows_NT 10.0.15063
+605 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\ProgramData\\chocolatey\\lib\\npm\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "yarn"
+606 error cwd C:\Users\Nick\workspace\mhacks-hackatbot\messages
+607 error node -v v8.1.0
+608 error npm -v 1.4.9
+609 error path C:\Program Files\nodejs\node_modules\yarn
+610 error syscall mkdir
+611 error fstream_path C:\Program Files\nodejs\node_modules\yarn
+612 error fstream_type Directory
+613 error fstream_class DirWriter
+614 error code EPERM
+615 error errno -4048
+616 error stack Error: EPERM: operation not permitted, mkdir 'C:\Program Files\nodejs\node_modules\yarn'
+617 error fstream_stack C:\ProgramData\chocolatey\lib\npm\tools\node_modules\npm\node_modules\fstream\lib\dir-writer.js:36:23
+617 error fstream_stack C:\ProgramData\chocolatey\lib\npm\tools\node_modules\npm\node_modules\mkdirp\index.js:37:53
+617 error fstream_stack FSReqWrap.oncomplete (fs.js:152:21)
+618 verbose exit [ -4048, true ]

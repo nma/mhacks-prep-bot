@@ -7,8 +7,12 @@ for /d %%d in (..\wwwroot\*) do (
   echo check %%d
   pushd %%d
   if exist package.json (
-    echo npm install --production
-    call npm install --production
+    echo npm install -g yarn
+    call npm install -g yarn
+    echo yarn install --production
+    call yarn install --production
+    rem echo npm install --production
+    rem call npm install --production
   ) else (
     echo no package.json found    
   )

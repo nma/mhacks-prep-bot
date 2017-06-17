@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended",
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "flowtype",
+    "compat"
+  ],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "no-unexpected-multiline": 2,
+    "compat/compat": 2
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "globals": {
+    "process": true,
+    "__dirname": true,
+    "console": true,
+    "module": true
+  }
+}
