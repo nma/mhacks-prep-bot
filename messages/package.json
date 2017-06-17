@@ -2,10 +2,9 @@
   "name": "waterfallbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "babel-cli": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-flow": "^6.23.0",
@@ -14,6 +13,7 @@
     "debug": "^2.6.8"
   },
   "devDependencies": {
+    "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
     "babel-loader": "^7.0.0",
@@ -29,11 +29,10 @@
     "webpack": "^2.6.1"
   },
   "scripts": {
-    "test": "eslint . && flow && jest --coverage",
+    "test": "eslint src && flow && jest --coverage",
     "dev": "nodemon --config nodemon.json -x yarn start",
-    "build": "webpack --progress -p",
-    "watch": "cross-env NODE_ENV=development DEBUG=bot babel-node index.js",
-    "start": "cross-env DEBUG=bot babel-node index.js"
+    "build": "babel src -d dist",
+    "start": "yarn build && cross-env NODE_ENV=development DEBUG=bot node dist/index.js"
   },
   "author": "",
   "license": "ISC"
