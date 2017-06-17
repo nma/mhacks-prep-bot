@@ -5,9 +5,13 @@ https://docs.botframework.com/en-us/node/builder/chat/dialogs/#waterfall
 -----------------------------------------------------------------------------*/
 "use strict";
 var builder = require("botbuilder");
+// this is only valid for Azure Functions exports
 // var botbuilder_azure = require("botbuilder-azure");
 var path = require('path');
 var debug = require('debug')('bot');
+
+// lets the port be set by heroku
+var port = process.env.PORT || 3978;
 var commandMiddleware = require("./commands/commandsMiddleware");
 var dialogMiddleware = require("./dialogues/dialogMiddleware");
 
@@ -45,7 +49,7 @@ bot.dialog('/', [
 
 var restify = require('restify');
 var server = restify.createServer();
-server.listen(3978, function() {
-    debug('test bot endpoint at http://localhost:3978/api/messages');
+server.listen(port, function() {
+    debug(`test bot endpoint at http://localhost:${port}/api/messages`);
 });
 server.post('/api/messages', connector.listen());
