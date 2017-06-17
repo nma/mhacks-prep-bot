@@ -10,7 +10,8 @@
     "babel-preset-flow": "^6.23.0",
     "botbuilder": "^3.7.0",
     "botbuilder-azure": "3.0.2",
-    "debug": "^2.6.8"
+    "debug": "^2.6.8",
+    "restify": "^4.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -25,7 +26,6 @@
     "flow-bin": "^0.48.0",
     "jest": "^20.0.4",
     "nodemon": "^1.11.0",
-    "restify": "^4.3.0",
     "webpack": "^2.6.1"
   },
   "scripts": {
