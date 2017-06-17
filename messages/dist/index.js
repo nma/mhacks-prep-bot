@@ -6,7 +6,7 @@ https://docs.botframework.com/en-us/node/builder/chat/dialogs/#waterfall
 "use strict";
 
 var builder = require("botbuilder");
-var botbuilder_azure = require("botbuilder-azure");
+// var botbuilder_azure = require("botbuilder-azure");
 var path = require('path');
 var debug = require('debug')('bot');
 var commandMiddleware = require("./commands/commandsMiddleware");
@@ -16,7 +16,7 @@ var useEmulator = process.env.NODE_ENV == 'development';
 debug(process.env.NODE_ENV);
 debug(useEmulator);
 
-var connector = useEmulator ? new builder.ChatConnector() : new botbuilder_azure.BotServiceConnector({
+var connector = useEmulator ? new builder.ChatConnector() : new builder.ChatConnector({
     appId: process.env['MicrosoftAppId'],
     appPassword: process.env['MicrosoftAppPassword'],
     stateEndpoint: process.env['BotStateEndpoint'],
@@ -48,6 +48,4 @@ if (useEmulator) {
         debug('test bot endpoint at http://localhost:3978/api/messages');
     });
     server.post('/api/messages', connector.listen());
-} else {
-    module.exports = { default: connector.listen() };
 }
