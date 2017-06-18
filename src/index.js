@@ -17,7 +17,7 @@ var dialogMiddleware = require("./dialogues/dialogMiddleware");
 
 var useEmulator = (process.env.NODE_ENV == 'development');
 debug(process.env.NODE_ENV);
-debug(useEmulator);
+debug(`emulator: ${useEmulator}`);
 
 var connector = useEmulator ? new builder.ChatConnector() : new builder.ChatConnector({
     appId: process.env['MicrosoftAppId'],
@@ -29,7 +29,7 @@ var connector = useEmulator ? new builder.ChatConnector() : new builder.ChatConn
 var bot = new builder.UniversalBot(connector);
 bot.localePath(path.join(__dirname, './locale'));
 
-// TODO
+// TODO figure out intents and their meaning
 // const INTENTS = {
 // };
 
@@ -37,19 +37,17 @@ bot.localePath(path.join(__dirname, './locale'));
 dialogMiddleware.default(bot, builder);
 commandMiddleware.default(bot);
 
-bot.dialog('/', [
-    function (session) {
-        builder.Prompts.text(session, "Hello... What's your name?");
-    },
-    function (session, results) {
-        session.send("Hi! " + results.response);
-        session.send("You can get more info with help, or start a session with me with start!");
-    }
-]);
+bot.on('conversationUpdate', function (update) {
+    debug(update);
+});
+
+bot.dialog('/', function(session) {
+    session.send('Hello, friend!');
+});
 
 var restify = require('restify');
 var server = restify.createServer();
 server.listen(port, function() {
-    debug(`test bot endpoint at http://localhost:${port}/api/messages`);
+    debug(`${useEmulator ? 'test' : 'prod' } bot endpoint at http://localhost:${port}/api/messages`);
 });
 server.post('/api/messages', connector.listen());

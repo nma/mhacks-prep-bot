@@ -1,6 +1,14 @@
 // import builder from 'botbuilder';
+import debug from 'debug';
 
 function stressRefresherWorksheet(bot, builder) {
+    const log = debug('bot:stress15');
+
+    bot.dialog('/stress15/hands', []);
+    bot.dialog('/stress15/shoulders', []);
+    bot.dialog('/stress15/neck', []);
+    bot.dialog('/stress15/jaw', []);
+    bot.dialog('/stress15/completionMessage', []);
 
     bot.dialog('/stress15', [
         function (session) {
@@ -20,6 +28,7 @@ function stressRefresherWorksheet(bot, builder) {
             }
         },
         function (session, results) {
+            log(results);
             if (results && results.entity === 'no') {
                 session.send("That's too bad ... ");
             }
@@ -35,6 +44,7 @@ function stressRefresherWorksheet(bot, builder) {
             }
         },
         function (session, results) {
+            log(results);
             if (results && results.entity === 'no') {
                 session.send("That's too bad ... ");
             }
@@ -50,6 +60,7 @@ function stressRefresherWorksheet(bot, builder) {
             }
         },
         function (session, results) {
+            log(results);
             if (results && results.entity === 'no') {
                 session.send("That's too bad ... ");
             }
@@ -57,7 +68,14 @@ function stressRefresherWorksheet(bot, builder) {
                 " your shoulders are " + session.userData.shoulders +
                 " and your jaw is " + session.userData.teeth + ". Go relax! [Have a Gif!], [CAT PICTURES], [Inspirational Mumble Jumble!]");
         }
-    ]);
+    ]).triggerAction({
+        matches: /^body/,
+        onSelectAction: function(session, args) {
+            // Add the help dialog to the dialog stack
+            // (override the default behavior of replacing the stack)
+            session.beginDialog(args.action, args);
+        }
+    });
 }
 
 export default stressRefresherWorksheet;

@@ -1,5 +1,5 @@
 {
-  "name": "waterfallbot",
+  "name": "R2DStress",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -32,7 +32,7 @@
     "test": "eslint src && flow && jest --coverage",
     "dev": "nodemon --config nodemon.json -x yarn start",
     "build": "babel src -d dist",
-    "start": "yarn build && cross-env NODE_ENV=development DEBUG=bot node dist/index.js",
+    "start": "yarn build && cross-env NODE_ENV=development DEBUG=bot* node dist/index.js",
     "postinstall": "yarn build"
   },
   "author": "",
